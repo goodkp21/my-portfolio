@@ -1,56 +1,50 @@
 
 [
 	{
-	'name': 'header',
-	'backgroundImage':'img/project1c.png',
-	'description':'Welcome to my portfolio',
-
+	"name": "header",
+	"backgroundImage":"img/project1c.png" ,
+	"description":"Welcome to my portfolio",
 	},
 
 
 	{
-	'name': 'project1',
-	'thumbnail':'img/project1c.png',
-	'description':'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-	ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
-	'projectImages':
-
+	"name": "project1",
+	"thumbnail":"img/project1c.png",
+	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+	ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+	"projectImages":
 	},
 
 	{
-	'name': 'project2',
-	'thumbnail':'img/project2.png,
-	'description':'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-	ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
-	'projectImages':
-
+	"name": "project2",
+	"thumbnail":"img/project2.png",
+	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+	ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+	"projectImages":
 	},
 
 	{
-	'name': 'project3',
-	'thumbnail':'img/project5.png',
-	'description':'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-	ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
-	'projectImages':
-
+	"name": "project3",
+	"thumbnail":"img/project5.png",
+	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+	ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+	"projectImages":
 	},
 
 	{
-	'name': 'project4',
-	'thumbnail':'img/project6a.png',
-	'description':'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-	ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
-	'projectImages':
-
+	"name": "project4",
+	"thumbnail":"img/project6a.png",
+	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+	ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+	"projectImages":
 	},
 
 	{
-	'name': 'project5',
-	'thumbnail':'img/project16.png',
-	'description':'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-	ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation',
-	'projectImages':
-
+	"name": "project5",
+	"thumbnail":"img/project16.png",
+	"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+	ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+	"projectImages":
 	}
 
 ]
