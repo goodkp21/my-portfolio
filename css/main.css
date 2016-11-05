@@ -1,3 +1,188 @@
+.navlogo {
+  float: left;
+
+}
+
+.navmenu {
+  float:right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    color: #e10883;
+    text-decoration: none;
+}
+
+.image {
+
+  background-image: url(../img/header1.jpg);
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+   position: absolute; 
+   top: 150px; 
+   text-align: center;
+   width: 100%; 
+   color: white;
+}
+
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+#project1 {
+  background-image: url(../img/project1c.png);
+  height: 213px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#project1:after {
+    content: "Project1";
+    color:#ffffff;
+    font-size: 36px;
+    text-align: center;
+    opacity: 0;
+    background: rgba(0,0,0,.5);
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#project1:hover:after {
+    opacity: 1;
+}
+
+#project2 {
+  background-image: url(../img/project2.png);
+  height: 213px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#project3 {
+  background-image: url(../img/project5.png);
+  height: 213px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#project4 {
+  background-image: url(../img/project6a.png);
+  height: 213px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#project5 {
+  background-image: url(../img/project16.png);
+  height: 430px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+/*For the Prtfolio Page*/ 
+
+.active {
+  color: #e10883;
+}
+#project6 {
+  background-image: url(../img/project6_portfolio.png);
+  height: 300px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#project7 {
+  background-image: url(../img/project7_portfolio.png);
+  height: 300px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#project8 {
+  background-image: url(../img/project8_portfolio.png);
+  height:300px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+#project9 {
+  background-image: url(../img/project9_portfolio.png);
+  height: 300px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#project10 {
+  background-image: url(../img/project7.png);
+  height: 300px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+
+
+.contact {
+  background-color: black;
+  color: white;
+  height: 180px;
+  padding: 10px;
+}
+
+#contactme {
+  padding: 50px;
+}
+
+#contactbutton {
+  background-color: #e10883;
+  color: white;
+}
 
 
 /* ==========================================================================
