@@ -62,7 +62,7 @@ h1 {
 
 
 #project1 {
-  background-image: url(../img/project1c.png);
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/6b374c45019993.5824d7c4504fe.jpg");
   height: 213px;
   display: block;
   background-repeat: no-repeat;
@@ -89,7 +89,7 @@ h1 {
 }
 
 #project2 {
-  background-image: url(../img/project2.png);
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/600ce929590897.55fa1a5eb2358.jpg");
   height: 213px;
   display: block;
   background-repeat: no-repeat;
@@ -97,7 +97,7 @@ h1 {
 }
 
 #project3 {
-  background-image: url(../img/project5.png);
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/1c170445020661.5824f455719c5.png");
   height: 213px;
   display: block;
   background-repeat: no-repeat;
@@ -105,7 +105,7 @@ h1 {
 }
 
 #project4 {
-  background-image: url(../img/project6a.png);
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/226eb129591109.5824f52285bea.png");
   height: 213px;
   display: block;
   background-repeat: no-repeat;
@@ -113,7 +113,7 @@ h1 {
 }
 
 #project5 {
-  background-image: url(../img/project16.png);
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/01a92545021243.5824ddc434224.jpg");
   height: 430px;
   display: block;
   background-repeat: no-repeat;
@@ -127,21 +127,21 @@ h1 {
   color: #e10883;
 }
 #project6 {
-  background-image: url(../img/project6_portfolio.png);
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/13352c29590897.55fa1a5eb4573.jpg");
   height: 300px;
   display: block;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 #project7 {
-  background-image: url(../img/project7_portfolio.png);
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/16c1b245019993.5824d7c4b2290.jpg");
   height: 300px;
   display: block;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 #project8 {
-  background-image: url(../img/project8_portfolio.png);
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9fab9745020661.5824daaca733d.jpg");
   height:300px;
   display: block;
   background-repeat: no-repeat;
@@ -150,7 +150,7 @@ h1 {
 }
 
 #project9 {
-  background-image: url(../img/project9_portfolio.png);
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/4ad23845019063.5824d4df45dfe.jpg");
   height: 300px;
   display: block;
   background-repeat: no-repeat;
@@ -158,7 +158,7 @@ h1 {
 }
 
 #project10 {
-  background-image: url(../img/project7.png);
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/226eb129591109.5824f52285bea.png");
   height: 300px;
   display: block;
   background-repeat: no-repeat;
