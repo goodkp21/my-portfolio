@@ -18,19 +18,42 @@ function mySuccessListener(data)
 {
 	// var projectName = getParameterByName('project-id'); // null (absent)
 	// var nextProjectName = ""
-	var listNames = [];
-	var listThumbnails = [];
+	var thumbsArray = [];
+	var namesArray = [];
 	for(i = 0; i<data.length; i++){
 		var currentObj = data[i];
 		var projectName = currentObj.name
-		var thumbs = currentObj.thumbnail
-		listThumbnails = listThumbnails + thumbs;
-		listNames = listNames + projectName;
+		thumbsArray.push(currentObj.thumbnail);
+		namesArray.push(currentObj.name);
 	}
 
 
-	$("#project1").css("background-image", "url(" + listThumbnails[0] + ")");
-	$("#project1").css("content", listNames[0]);
+	$("#project1").css("background-image", "url(" + thumbsArray[0] + ")");
+	$("#project1").hover(function() {
+    $(".overlay").toggleClass("on");
+    $(".message1").toggleClass("showmessage");
+    $(".message1").text(namesArray[0]);
+ 
+ 	
+  });
+
+	$("#project2").css("background-image", "url(" + thumbsArray[1] + ")");
+	$("#project2").hover(function() {
+    $(".overlay2").toggleClass("on");
+    $(".message2").toggleClass("showmessage");
+    $(".message2").text(namesArray[1]);
+ 
+ 	
+  });
+
+	$("#project5").css("background-image", "url(" + thumbsArray[4] + ")");
+	$("#project5").hover(function() {
+    $(".overlay5").toggleClass("on");
+    $(".message5").toggleClass("showmessage");
+    $(".message5").text(namesArray[4]);
+ 
+ 	
+  });
 
 
 	//alert(listThumbnails);

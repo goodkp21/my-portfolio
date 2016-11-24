@@ -35,10 +35,9 @@ li a {
 .image {
 
   background-image: url(../img/header1.jpg);
-  width: 100%;
   height: 350px;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  /*background-repeat: no-repeat;
+  background-size: 100%;*/
 }
 
 h1 {
@@ -59,7 +58,69 @@ h1 {
   padding-right: 0;
   padding-left: 0;
 }
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
+
+
+
+a:hover{
+  text-decoration: none;
+}
+
+
+.overlay, .overlay2 {
+  display: inline-block;
+  height: 213px;
+  width: 100%;
+  background-color: rgba(0,0,0, 0); 
+}
+
+.overlay5 {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0, 0); 
+}
+
+
+
+
+.overlay.on, .overlay2.on, .overlay5.on { 
+  background-color: rgba(0,0,0, 0.5); 
+}
+
+
+.message1, .message2 {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 75px;
+  opacity: 0;
+
+}
+
+.message5 {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 200px;
+  opacity: 0;
+
+}
+
+
+
+.showmessage {
+  opacity: 1;
+  
+}
 
 #project1 {
   background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/6b374c45019993.5824d7c4504fe.jpg");
@@ -67,21 +128,7 @@ h1 {
   display: block;
   background-repeat: no-repeat;
   background-size: 100%;
-}
-
-#project1:after {
-    content: "Project1";
-    color:#ffffff;
-    font-size: 36px;
-    text-align: center;
-    opacity: 0;
-    background: rgba(0,0,0,.5);
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    transition: all 1s;
-    position: absolute;
-    width: 100%;
-    height: 100%;
+  background-position: center;
 }
 
 #project1:hover:after {
@@ -94,6 +141,7 @@ h1 {
   display: block;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center;
 }
 
 #project3 {
@@ -102,6 +150,8 @@ h1 {
   display: block;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center;
+
 }
 
 #project4 {
@@ -110,6 +160,8 @@ h1 {
   display: block;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center;
+
 }
 
 #project5 {
@@ -118,6 +170,8 @@ h1 {
   display: block;
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center;
+
 }
 
 
