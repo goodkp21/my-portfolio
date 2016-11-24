@@ -46,6 +46,25 @@ function mySuccessListener(data)
  	
   });
 
+
+  $("#project3").css("background-image", "url(" + thumbsArray[2] + ")");
+  $("#project3").hover(function() {
+    $(".overlay3").toggleClass("on");
+    $(".message3").toggleClass("showmessage");
+    $(".message3").text(namesArray[2]);
+ 
+  
+  });
+
+   $("#project4").css("background-image", "url(" + thumbsArray[3] + ")");
+  $("#project4").hover(function() {
+    $(".overlay4").toggleClass("on");
+    $(".message4").toggleClass("showmessage");
+    $(".message4").text(namesArray[3]);
+ 
+  
+  });
+
 	$("#project5").css("background-image", "url(" + thumbsArray[4] + ")");
 	$("#project5").hover(function() {
     $(".overlay5").toggleClass("on");

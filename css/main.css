@@ -71,9 +71,9 @@ a:hover{
 }
 
 
-.overlay, .overlay2 {
+.overlay, .overlay2, .overlay3, .overlay4 {
   display: inline-block;
-  height: 213px;
+  height: 215px;
   width: 100%;
   background-color: rgba(0,0,0, 0); 
 }
@@ -88,12 +88,12 @@ a:hover{
 
 
 
-.overlay.on, .overlay2.on, .overlay5.on { 
+.overlay.on, .overlay2.on, .overlay3.on, .overlay4.on, .overlay5.on { 
   background-color: rgba(0,0,0, 0.5); 
 }
 
 
-.message1, .message2 {
+.message1, .message2, .message3, .message4 {
   text-align: center;
   color: #fff;
   font-size: 36px;
@@ -124,10 +124,13 @@ a:hover{
 
 #project1 {
   background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/6b374c45019993.5824d7c4504fe.jpg");
-  height: 213px;
+  height: 215px;
   display: block;
   background-repeat: no-repeat;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-position: center;
 }
 
@@ -137,29 +140,40 @@ a:hover{
 
 #project2 {
   background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/600ce929590897.55fa1a5eb2358.jpg");
-  height: 213px;
+  height: 215px;
   display: block;
   background-repeat: no-repeat;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-position: center;
+  background-image: cover;
+
 }
 
 #project3 {
   background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/1c170445020661.5824f455719c5.png");
-  height: 213px;
+  height: 215px;
   display: block;
   background-repeat: no-repeat;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-position: center;
 
 }
 
 #project4 {
   background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/226eb129591109.5824f52285bea.png");
-  height: 213px;
+  height: 215px;
   display: block;
   background-repeat: no-repeat;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-position: center;
 
 }
@@ -169,7 +183,10 @@ a:hover{
   height: 430px;
   display: block;
   background-repeat: no-repeat;
-  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-position: center;
 
 }
